@@ -1,0 +1,28 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = ''
+theme = "m10c"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+[params]
+  author = "Anupam Singh"
+  description = "An average security guy"
+  [menu]
+  [[menu.main]]
+    identifier = "Hackerone"
+    name = "Hackerone"
+    url = "https://Hackerone.com/AnupaAS01"
+    weight = 1
+  [[menu.main]]
+    identifier = "Bugcrowd"
+    name = "Bugcrowd"
+    url = "https://Bugcrowd.com/AnupaAS01"
+    weight = 2
+  [[menu.main]]
+    identifier = "Intigriti"
+    name = "Intigriti"
+    url = "https://app.intigriti.com/profile/anupamas/"
+    weight = 3
